@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Video Downloder</title>
+  </head>
+  <body class="font-main min-h-screen bg-gray-50">
+    <div class="side py-10 text-center">
+      <div class="container">
+        <!-- Start The Address -->
+        <div class="address">
+          <h1 class="xs:text-4xl text-2xl font-bold text-red-700">
+            Video
+            <span>Downloader</span>
+            <br />
+            Support
+            <span class="text-xl text-[#1877f2]">
+              <i class="fa-brands fa-facebook"></i>
+            </span>
+            <span class="text-2xl text-[#f00]">
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+            <span class="text-2xl text-[#e1306c]">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+            <span class="text-2xl text-[#000]">
+              <i class="fa-brands fa-tiktok"></i>
+            </span>
+          </h1>
+          <h3 class="text-xl font-bold text-red-700 my-6">
+            By
+            <span class="text-red-500">
+              Basem Sheref
+            </span>
+          </h3>
+          <p class="text-red-700 text-xl">
+            {مَا يَلْفِظُ مِنْ قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ}
+          </p>
+        </div>
+        <!-- End The Address -->
+        <div class="main-side mt-8 text-red-700 font-medium">
+          <!-- Start Form Section -->
+          <div class="form mt-8">
+            <input
+              class="input-value w-full md:w-[700px] mx-auto focus:outline-blue-400 border border-blue-400 p-3 rounded block mb-3"
+              type="text"
+              placeholder="Put Your Link"
+            />
+            <button
+              class="send-data py-2 bg-blue-400 hover:bg-blue-500 w-[200px] focus:outline-none text-white"
+            >
+              Send
+            </button>
+          </div>
+          <!-- End Form Section -->
+
+          <!-- Start The Data Container -->
+          <div class="data-container mt-6 xs:w-[400px] mx-auto overflow-hidden">
+            <img class="img-container w-full" alt="" />
+            <h3 class="the-title my-4 font-bold text-xl"></h3>
+            <p class="duration-p text-sm my-4 font-bold text-blue-400"></p>
+            <div class="download-div text-center mt-6"></div>
+            <div
+              class="instagram flex items-center justify-between flex-wrap"
+            ></div>
+          </div>
+          <!-- End The Data Container -->
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
